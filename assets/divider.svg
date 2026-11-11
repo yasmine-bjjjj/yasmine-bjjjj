@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="40" viewBox="0 0 800 40">
+  <defs><g id="ball"><circle r="12" fill="#FFFFFF" stroke="#0A1F44" stroke-width="1.6"/><path d="M0,-5 L4.8,-1.5 L3,4 L-3,4 L-4.8,-1.5Z" fill="#0A1F44"/><path d="M0,-5 V-11 M4.8,-1.5 L10.5,-3.5 M3,4 L7,9.5 M-3,4 L-7,9.5 M-4.8,-1.5 L-10.5,-3.5" stroke="#0A1F44" stroke-width="1.4" stroke-linecap="round"/></g></defs>
+  <style>
+    .dash{animation:move 1.6s linear infinite}
+    .b{animation:spin 3s linear infinite;transform-box:fill-box;transform-origin:center}
+    .h{animation:beat 1.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes move{to{stroke-dashoffset:-28}}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.4)}}
+  </style>
+  <line class="dash" x1="20" y1="20" x2="350" y2="20" stroke="#FF2E97" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 12"/>
+  <line class="dash" x1="450" y1="20" x2="780" y2="20" stroke="#FF2E97" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 12"/>
+  <g transform="translate(400,20) scale(1.1)"><g class="b"><use href="#ball"/></g></g>
+  <g transform="translate(370,20)"><path class="h" d="M0,-4 C-2,-10 -12,-9 -12,-1 C-12,6 -4,9 0,14 C4,9 12,6 12,-1 C12,-9 2,-10 0,-4Z" fill="#FF2E97" transform="scale(.6)"/></g>
+  <g transform="translate(430,20)"><path class="h" d="M0,-4 C-2,-10 -12,-9 -12,-1 C-12,6 -4,9 0,14 C4,9 12,6 12,-1 C12,-9 2,-10 0,-4Z" fill="#6D0F2A" transform="scale(.6)" style="animation-delay:.6s"/></g>
+</svg>

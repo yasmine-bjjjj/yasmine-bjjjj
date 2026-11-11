@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1F44"/><stop offset="0.6" stop-color="#6D0F2A"/><stop offset="1" stop-color="#B0135F"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="900" height="320" rx="30"/></clipPath>
+    <path id="heart" d="M0,-4 C-2,-10 -12,-9 -12,-1 C-12,6 -4,9 0,14 C4,9 12,6 12,-1 C12,-9 2,-10 0,-4Z"/>
+    <path id="star" d="M0,-10 L2.5,-2.5 L10,0 L2.5,2.5 L0,10 L-2.5,2.5 L-10,0 L-2.5,-2.5Z"/>
+    <g id="ball"><circle r="12" fill="#FFFFFF" stroke="#0A1F44" stroke-width="1.6"/><path d="M0,-5 L4.8,-1.5 L3,4 L-3,4 L-4.8,-1.5Z" fill="#0A1F44"/><path d="M0,-5 V-11 M4.8,-1.5 L10.5,-3.5 M3,4 L7,9.5 M-3,4 L-7,9.5 M-4.8,-1.5 L-10.5,-3.5" stroke="#0A1F44" stroke-width="1.4" stroke-linecap="round"/></g>
+    <clipPath id="t1"><rect x="0" y="176" height="50"><animate attributeName="width" dur="12s" repeatCount="indefinite" keyTimes="0;0.08;0.30;0.31;1" values="200;720;720;200;200"/></rect></clipPath>
+    <clipPath id="t2"><rect x="0" y="176" height="50"><animate attributeName="width" dur="12s" repeatCount="indefinite" keyTimes="0;0.33;0.41;0.63;0.64;1" values="200;200;720;720;200;200"/></rect></clipPath>
+    <clipPath id="t3"><rect x="0" y="176" height="50"><animate attributeName="width" dur="12s" repeatCount="indefinite" keyTimes="0;0.66;0.74;0.96;0.97;1" values="200;200;720;720;200;200"/></rect></clipPath>
+    <filter id="neon" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="b"/>
+      <feFlood flood-color="#FF2E97" flood-opacity="0.9"/><feComposite in2="b" operator="in" result="glow"/>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .rise{animation:rise 7s linear infinite;transform-box:fill-box;transform-origin:center}
+    .tw{animation:tw 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    .bob{animation:bob 3.2s ease-in-out infinite}
+    .fall{animation:fall 8s linear infinite;transform-box:fill-box;transform-origin:center}
+    .ballhop{animation:hop 1.3s cubic-bezier(.3,.0,.5,1) infinite;transform-box:fill-box;transform-origin:center bottom}
+    .shadow{animation:sh 1.3s cubic-bezier(.3,.0,.5,1) infinite;transform-box:fill-box;transform-origin:center}
+    .flick{animation:flick 3.4s linear infinite}
+    @keyframes rise{0%{transform:translateY(0) scale(.5);opacity:0}15%{opacity:.95}100%{transform:translateY(-330px) scale(1.15);opacity:0}}
+    @keyframes tw{0%,100%{opacity:.15;transform:scale(.5)}50%{opacity:1;transform:scale(1.25)}}
+    @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    @keyframes fall{0%{transform:translateY(0) rotate(-10deg);opacity:0}10%{opacity:.9}90%{opacity:.9}100%{transform:translateY(400px) rotate(20deg);opacity:0}}
+    @keyframes hop{0%,100%{transform:translateY(0) scale(1.15,.85)}12%{transform:translateY(-8px) scale(1,1)}50%{transform:translateY(-70px) rotate(180deg)}88%{transform:translateY(-8px) scale(1,1)}}
+    @keyframes sh{0%,100%{transform:scale(1);opacity:.5}50%{transform:scale(.55);opacity:.2}}
+    @keyframes flick{0%,100%{opacity:1}6%{opacity:.35}9%{opacity:1}55%{opacity:1}58%{opacity:.5}61%{opacity:1}}
+    .title{font:700 66px 'Trebuchet MS','Segoe UI',Verdana,sans-serif;fill:#FFFFFF}
+    .sub{font:600 26px 'Courier New',Courier,monospace;fill:#FFB3D9}
+    .tag{font:600 16px 'Trebuchet MS','Segoe UI',Verdana,sans-serif;fill:#FFFFFF;opacity:.9}
+    .tok{font:700 20px 'Courier New',Courier,monospace}
+  </style>
+  <g clip-path="url(#round)">
+    <rect width="900" height="320" fill="url(#bg)"/>
+    <circle cx="90" cy="60" r="120" fill="#FF2E97" opacity=".10"/>
+    <circle cx="820" cy="280" r="150" fill="#FF2E97" opacity=".14"/>
+<g transform="translate(70,330)"><g class="rise" style="animation-delay:0s"><use href="#ball"/></g></g>
+<g transform="translate(190,330)"><g class="rise" fill="#FF2E97" style="animation-delay:1.6s"><use href="#heart"/></g></g>
+<g transform="translate(330,330)"><g class="rise" style="animation-delay:3.1s"><use href="#ball"/></g></g>
+<g transform="translate(470,330)"><g class="rise" fill="#FFB3D9" style="animation-delay:4.4s"><use href="#heart"/></g></g>
+<g transform="translate(610,330)"><g class="rise" style="animation-delay:2.2s"><use href="#ball"/></g></g>
+<g transform="translate(730,330)"><g class="rise" fill="#FFFFFF" style="animation-delay:5.3s"><use href="#heart"/></g></g>
+<g transform="translate(840,330)"><g class="rise" style="animation-delay:0.8s"><use href="#ball"/></g></g>
+<g transform="translate(60,70)"><g class="tw" fill="#FFFFFF" style="animation-delay:0s"><use href="#star"/></g></g>
+<g transform="translate(250,40)"><g class="tw" fill="#FFB3D9" style="animation-delay:0.6s"><use href="#star"/></g></g>
+<g transform="translate(560,55)"><g class="tw" fill="#FFFFFF" style="animation-delay:1.2s"><use href="#star"/></g></g>
+<g transform="translate(700,40)"><g class="tw" fill="#FFB3D9" style="animation-delay:0.3s"><use href="#star"/></g></g>
+<g transform="translate(840,50)"><g class="tw" fill="#FFFFFF" style="animation-delay:1.8s"><use href="#star"/></g></g>
+<g transform="translate(110,270)"><g class="tw" fill="#FFB3D9" style="animation-delay:0.9s"><use href="#star"/></g></g>
+<g transform="translate(790,240)"><g class="tw" fill="#FFFFFF" style="animation-delay:1.5s"><use href="#star"/></g></g>
+<g transform="translate(40,-30)"><g class="fall" style="animation-delay:0s"><text class="tok" fill="#FF2E97" text-anchor="middle">{ }</text></g></g>
+<g transform="translate(150,-30)"><g class="fall" style="animation-delay:1s"><text class="tok" fill="#FFB3D9" text-anchor="middle">&lt;/&gt;</text></g></g>
+<g transform="translate(270,-30)"><g class="fall" style="animation-delay:2s"><text class="tok" fill="#FF2E97" text-anchor="middle">SELECT</text></g></g>
+<g transform="translate(400,-30)"><g class="fall" style="animation-delay:3s"><text class="tok" fill="#FFB3D9" text-anchor="middle">;</text></g></g>
+<g transform="translate(520,-30)"><g class="fall" style="animation-delay:4s"><text class="tok" fill="#FF2E97" text-anchor="middle">0101</text></g></g>
+<g transform="translate(640,-30)"><g class="fall" style="animation-delay:5s"><text class="tok" fill="#FFB3D9" text-anchor="middle">C</text></g></g>
+<g transform="translate(760,-30)"><g class="fall" style="animation-delay:6s"><text class="tok" fill="#FF2E97" text-anchor="middle">py</text></g></g>
+<g transform="translate(860,-30)"><g class="fall" style="animation-delay:7s"><text class="tok" fill="#FFB3D9" text-anchor="middle">ping</text></g></g>
+
+    <g class="bob" filter="url(#neon)">
+      <text x="450" y="130" text-anchor="middle" class="title">Hi, I am Yasmine ✦</text>
+    </g>
+    <g clip-path="url(#t1)"><text x="450" y="212" text-anchor="middle" class="sub">CS Student @ UIR</text></g>
+    <g clip-path="url(#t2)"><text x="450" y="212" text-anchor="middle" class="sub">Hard? Yes. Quitting? Never.</text></g>
+    <g clip-path="url(#t3)"><text x="450" y="212" text-anchor="middle" class="sub">C &gt; Python &gt; Network &gt; SQL</text></g>
+    <text x="450" y="272" text-anchor="middle" class="tag">football  •  drawing  •  never giving up</text>
+    <ellipse class="shadow" cx="790" cy="222" rx="30" ry="6" fill="#000000"/>
+    <g transform="translate(790,205) scale(2.6)"><g class="ballhop"><use href="#ball"/></g></g>
+    <rect class="flick" x="6" y="6" width="888" height="308" rx="26" fill="none" stroke="#FF2E97" stroke-width="3"/>
+  </g>
+</svg>

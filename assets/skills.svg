@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#13306B"/><stop offset="1" stop-color="#0A1F44"/></linearGradient>
+    <linearGradient id="sq" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF2E97"/><stop offset="1" stop-color="#6D0F2A"/></linearGradient>
+  </defs>
+  <style>
+    .lbl{font:700 20px 'Trebuchet MS','Segoe UI',Verdana,sans-serif;fill:#FFFFFF}
+    .pct{font:700 16px 'Trebuchet MS','Segoe UI',Verdana,sans-serif;fill:#FF2E97}
+    .ttl{font:700 24px 'Trebuchet MS','Segoe UI',Verdana,sans-serif;fill:#FF2E97}
+    .on{animation:pop 8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    .flick{animation:flick 3.4s linear infinite}
+    @keyframes pop{0%{opacity:.12;transform:scale(.5)}6%{opacity:1;transform:scale(1.22)}10%{transform:scale(1)}86%{opacity:1;transform:scale(1)}96%,100%{opacity:.12;transform:scale(.5)}}
+    @keyframes flick{0%,100%{opacity:1}6%{opacity:.4}9%{opacity:1}55%{opacity:1}58%{opacity:.55}61%{opacity:1}}
+  </style>
+  <rect x="3" y="3" width="794" height="394" rx="28" fill="url(#card)"/>
+  <rect class="flick" x="3" y="3" width="794" height="394" rx="28" fill="none" stroke="#FF2E97" stroke-width="3"/>
+  <text x="400" y="48" text-anchor="middle" class="ttl">⚡ level up mode: hard, but I never quit ⚡</text>
+<text x="36" y="111" class="lbl">💻 C</text>
+<g transform="translate(210,84)"><g class="on" style="animation-delay:0.25s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(255,84)"><g class="on" style="animation-delay:0.41s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(300,84)"><g class="on" style="animation-delay:0.57s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(345,84)"><g class="on" style="animation-delay:0.73s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(390,84)"><g class="on" style="animation-delay:0.89s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(435,84)"><g class="on" style="animation-delay:1.05s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(480,84)"><g class="on" style="animation-delay:1.21s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(525,84)"><g class="on" style="animation-delay:1.37s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<rect x="570" y="84" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="615" y="84" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<text x="678" y="110" class="pct">80%</text>
+<text x="36" y="166" class="lbl">🐍 Python</text>
+<g transform="translate(210,139)"><g class="on" style="animation-delay:0.60s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(255,139)"><g class="on" style="animation-delay:0.76s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(300,139)"><g class="on" style="animation-delay:0.92s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(345,139)"><g class="on" style="animation-delay:1.08s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(390,139)"><g class="on" style="animation-delay:1.24s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(435,139)"><g class="on" style="animation-delay:1.40s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(480,139)"><g class="on" style="animation-delay:1.56s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(525,139)"><g class="on" style="animation-delay:1.72s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<rect x="570" y="139" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="615" y="139" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<text x="678" y="165" class="pct">80%</text>
+<text x="36" y="221" class="lbl">🌐 Networking</text>
+<g transform="translate(210,194)"><g class="on" style="animation-delay:0.95s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(255,194)"><g class="on" style="animation-delay:1.11s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(300,194)"><g class="on" style="animation-delay:1.27s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(345,194)"><g class="on" style="animation-delay:1.43s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(390,194)"><g class="on" style="animation-delay:1.59s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<rect x="435" y="194" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="480" y="194" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="525" y="194" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="570" y="194" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="615" y="194" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<text x="678" y="220" class="pct">50%</text>
+<text x="36" y="276" class="lbl">🗄️ Databases</text>
+<g transform="translate(210,249)"><g class="on" style="animation-delay:1.30s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(255,249)"><g class="on" style="animation-delay:1.46s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(300,249)"><g class="on" style="animation-delay:1.62s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(345,249)"><g class="on" style="animation-delay:1.78s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<rect x="390" y="249" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="435" y="249" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="480" y="249" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="525" y="249" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="570" y="249" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="615" y="249" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<text x="678" y="275" class="pct">40%</text>
+<text x="36" y="331" class="lbl">🔜 SQL</text>
+<g transform="translate(210,304)"><g class="on" style="animation-delay:1.65s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<g transform="translate(255,304)"><g class="on" style="animation-delay:1.81s"><rect width="38" height="38" rx="7" fill="url(#sq)"/><rect x="5" y="5" width="28" height="28" rx="4" fill="none" stroke="#FFB3D9" stroke-width="1.5" opacity=".6"/><path d="M8,9 H22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></g></g>
+<rect x="300" y="304" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="345" y="304" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="390" y="304" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="435" y="304" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="480" y="304" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="525" y="304" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="570" y="304" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<rect x="615" y="304" width="38" height="38" rx="7" fill="#1B2F5E"/>
+<text x="678" y="330" class="pct">20%</text>
+  <text x="400" y="376" text-anchor="middle" class="pct">hard does not mean impossible, it means worth it 💪</text>
+</svg>
